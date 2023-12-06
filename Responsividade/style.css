@@ -19,3 +19,13 @@ p{
         color:#239812;
     }
 }
+
+h3{
+    display: none;
+}
+
+@media screen and (orientation: landscape){
+    h3{
+        display: block;
+    }
+}
