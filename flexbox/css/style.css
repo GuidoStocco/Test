@@ -16,3 +16,12 @@
     width: 33%;
     border: 1px solid red;
 }
+
+.justify{
+    display: flex;
+    justify-content: center;
+}
+
+.justify .box{
+    width: 50px;
+}
