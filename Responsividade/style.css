@@ -29,3 +29,12 @@ h3{
         display: block;
     }
 }
+
+.principal{
+    display: flex;
+}
+
+.second{
+    display: flex;
+   align-items: center;
+}
