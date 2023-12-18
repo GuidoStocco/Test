@@ -17,6 +17,11 @@
     border: 1px solid red;
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+}
+
 .justify{
     display: flex;
     justify-content: center;
@@ -24,4 +29,15 @@
 
 .justify .box{
     width: 50px;
+}
+
+.align{
+    display: flex;
+    height: 200px;
+    border: 1px soli blue;
+}
+
+.align .box{
+    align-items: center;
+    justify-content: center;
 }
