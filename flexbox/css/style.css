@@ -1,0 +1,18 @@
+/*flex direction*/
+.flexdirection{
+    display: flex;
+    background-color: #ccc;
+    flex-direction: column;
+}
+
+.wrap{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
+}
