@@ -42,3 +42,34 @@ h2{
     justify-content: center;
     height: auto;
 }
+
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid green;
+    gap: 10px;
+}
+
+.gap .box{
+   width: 33%;
+}
+
+.order{
+    display: flex;
+}
+
+#one{
+    order:1;
+}
+
+#two{
+    order:2;
+}
+#three{
+    order:3;
+}
+
+.grow{
+    display: flex;
+}
