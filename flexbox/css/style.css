@@ -73,3 +73,11 @@ h2{
 .grow{
     display: flex;
 }
+
+.grow .box{
+    flex: 1;
+}
+
+.grow .big{
+    flex: 2;
+}
