@@ -40,7 +40,5 @@ h2{
 .align .box{
     align-items: center;
     justify-content: center;
-}
-.box{
     height: auto;
 }
