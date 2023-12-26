@@ -108,3 +108,12 @@ h2{
 .shrink .small{
     flex-shrink: 2;
 }
+
+.shorthand{
+    display: flex;
+}
+
+.shorthand .box{
+    flex: 1 1 50px;
+    width: auto;
+}
