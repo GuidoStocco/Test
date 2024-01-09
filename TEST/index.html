@@ -9,7 +9,7 @@
 <body>
     <form action="./index.html">
         <label for="email">Email</label>
-        <input style="display: block;" id="email" type="email" name="email" placeholder="Digite seu email"/><br/>
+        <input style="display: block;" id="email" type="email" name="email" required placeholder="Digite seu email"/><br/>
 
         <label for="password">Senha</label>
         <input style="display: block;" id="password" type="password" name="password" placeholder="Sua Senha"/>
@@ -28,7 +28,18 @@
 
         <label for="number">Número</label>
         <input style="display: block;" id="number" type="number" name="number"/>
-        
+
+        <label for="file">Arquivo</label>
+        <input style="display: block;" id="file" type="file" name="file"/>
+
+        <label for="date">Data de Aniversario</label>
+        <input style="display: block;" id="date" type="date" name="date"/>
+
+        <select style="display: block;" name="day of the week">
+            <option value="monday">Segunda</option>
+            <option value="tuesday">terça</option>
+        </select>
+
 
     </form>
     
