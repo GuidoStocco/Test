@@ -36,3 +36,24 @@
     position: absolute;
     top: 20px;
 }
+
+.father{
+    width: 50%;
+    height: 200px;
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.son{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+}
+.son1{
+    width: 100px;
+    height: 100px;
+    background-color: #093822;
+    color: #fff;
+}
