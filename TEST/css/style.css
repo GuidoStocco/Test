@@ -42,7 +42,8 @@
     height: 200px;
     background-color: darkmagenta;
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
+    align-items: center;
 }
 
 .son{
