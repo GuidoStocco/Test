@@ -85,9 +85,11 @@
 @keyframes animacao{
     from{
         border-radius: 0;
+        background-color: #038213;
     }
 
     to{
         border-radius: 50%;
+        background-color: aqua;
     }
 }
