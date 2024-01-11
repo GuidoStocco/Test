@@ -39,22 +39,27 @@
 
 .father{
     width: 50%;
-    height: 200px;
+    height: 500px;
     background-color: darkmagenta;
-    display: flex;
-    justify-content:flex-end;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .son{
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: black;
     color: #fff;
 }
 .son1{
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: #093822;
+    color: #fff;
+}
+.son2{
+    width: 100%;
+    height: 100px;
+    background-color: #038213;
     color: #fff;
 }
