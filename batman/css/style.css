@@ -49,3 +49,34 @@ li:hover{
     height: 500px;
     
 }
+
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    margin-top: -10px;
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.trailer{
+    width: 50%;
+}
+
+.sinopse{
+    color:#fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+
