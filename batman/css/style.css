@@ -80,3 +80,27 @@ li:hover{
     padding-left: 70px;
 }
 
+.description{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #fff;
+    margin-top: -30px;
+}
+
+.button{
+    width: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    margin-top: 15px;
+    margin-left: 100px;
+    padding: 2px 0;
+}
+
+.button:hover{
+    color: brown;
+    background-color: #000;
+}
