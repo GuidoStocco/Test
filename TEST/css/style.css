@@ -56,6 +56,7 @@
     height: 100px;
     background-color: #093822;
     color: #fff;
+    flex-grow: 2;
 }
 .son2{
     width: 100%;
@@ -80,6 +81,7 @@
     color: #fff;
     animation: animacao;
     animation-duration: 5s;
+    
 }
 
 @keyframes animacao{
