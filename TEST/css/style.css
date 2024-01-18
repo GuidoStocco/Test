@@ -81,7 +81,6 @@
     color: #fff;
     animation: animacao;
     animation-duration: 5s;
-    
 }
 
 @keyframes animacao{
