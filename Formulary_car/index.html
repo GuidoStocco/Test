@@ -20,8 +20,20 @@
                 <p>Descreva as características e marque os opcionais que ele possui</p>
                 <div class="box-input">
                     <label for="title">Título do Anúncio<span class="required-field">*</span></label>
-                    <input type="text" name="title" id="title" class="block" placeholder="digite um texto para seu anuncio aqui"/>
+                    <input type="text" name="title" id="title" class="block" placeholder="digite um texto para seu anuncio aqui" minlength="30" maxlength="100"/>
                 </div>
+
+                <div class="box-input">
+                    <label for="price">Preço<span class="required-field">*</span></label>
+                    <input type="number" name="price" id="price" class="block" placeholder="Coloque um preço"/>
+                </div>
+
+                
+                <div class="box-input">
+                    <label for="description">Preço<span class="required-field">*</span></label>
+                    <textarea name="description" id="description" class="block" placeholder="Aqui você coloca os detalhes do veículo"></textarea>
+                </div>
+
             </div>    
         </div>
     </div>    
