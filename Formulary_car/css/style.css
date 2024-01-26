@@ -28,3 +28,9 @@ input [type="date"],
 input [type="file"] {
     width: 400px;
 }
+
+.header{
+    height: 160px;
+    background-color: cadetblue;
+    padding: 20px;
+}
