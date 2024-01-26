@@ -34,3 +34,7 @@ input [type="file"] {
     background-color: cadetblue;
     padding: 20px;
 }
+
+.header h3{
+    color: #fff;
+}
