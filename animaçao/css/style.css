@@ -18,3 +18,20 @@
         border-radius: 50%;
     }
 }
+
+.animation-div2{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: relative;
+    animation-name: animacao2;
+    animation-duration: 6s;
+}
+
+@keyframes animacao2{
+    0% {}
+    30% {width: 100px;}
+    50% {backgroud-color: blue;}
+    80% {align-items: center; background-color: black;}
+    100% {left: 100px; width: 200px; background-color: blueviolet;}
+}
