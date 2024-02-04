@@ -35,3 +35,19 @@
     80% {align-items: center; background-color: black;}
     100% {left: 100px; width: 200px; background-color: blueviolet;}
 }
+
+.animation-div3{
+    width: 100px;
+    height: 100px;
+    background-color: #329324;
+    position: relative;
+    animation-name: animacao3;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+@keyframes animacao3{
+    from{left: 0;}
+
+    to {background-color: blueviolet; left: 100px;}
+}
