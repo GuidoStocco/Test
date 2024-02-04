@@ -1,0 +1,20 @@
+.animation-div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animacao;
+    animation-duration: 3s;
+    
+}
+
+@keyframes animacao{
+    from{
+        background-color: red;
+        border-radius: 0%;
+    }
+
+    to{
+        background-color: aqua;
+        border-radius: 50%;
+    }
+}
