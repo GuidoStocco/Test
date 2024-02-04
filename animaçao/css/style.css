@@ -51,3 +51,27 @@
 
     to {background-color: blueviolet; left: 100px;}
 }
+
+/*gradient*/
+.gradient-box{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+.gradient1{
+    background-image: linear-gradient(purple, blue);  
+}
+
+.gradient2{
+    background-image: linear-gradient(to right, purple, blue);
+}
+
+.gradient3{
+    background-image: linear-gradient(to left, purple, blue);
+}
+
+.gradient4{
+    background-image: linear-gradient(to top right, purple, blue);
+}
