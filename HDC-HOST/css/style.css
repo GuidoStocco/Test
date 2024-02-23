@@ -18,3 +18,23 @@ p{
     background-color: #232a31;
     padding: 0 2em;
 }
+
+.logo{
+    height: 70px;
+    padding: 5px 0;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+    box-sizing: border-box;
+}
+
+nav{
+    position: relative; 
+}
+
+
+
