@@ -17,6 +17,8 @@ p{
     height: 80px;
     background-color: #232a31;
     padding: 0 2em;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .logo{
@@ -28,8 +30,6 @@ p{
     display: flex;
     justify-content: space-around;
     list-style: none;
-    position: relative;
-    box-sizing: border-box;
 }
 
 nav{
