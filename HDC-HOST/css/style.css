@@ -22,18 +22,31 @@ p{
 }
 
 .logo{
-    height: 70px;
-    padding: 5px 0;
-}
-
-.navbar-items{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+    height: 50px;
+    padding: 15px 0;
 }
 
 nav{
     position: relative; 
+}
+
+
+.navbar-items{
+    display: inline-block;
+    list-style: none;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    right: 0;
+    position: absolute;
+    
+}
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+    
 }
 
 
