@@ -39,15 +39,33 @@ nav{
     margin: 0;
     right: 0;
     position: absolute;
-    
+    padding-right: 50px;
 }
 
 .navbar-items li{
     display: inline-block;
     text-transform: uppercase;
     margin-left: 25px;
-    
 }
 
+.navbar-items li a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5;
+}
 
+.navbar-items li a:hover{
+    color: #ccc;
+}
 
+.default-btn{
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+
+.default-btn:hover{
+    background-color: #22bb5f;
+
+}
