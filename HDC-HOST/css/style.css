@@ -91,3 +91,16 @@ nav{
 .main-banner p{
     font-size: 32px;
 }
+
+.specialties-container{
+    padding: 5em 0;
+}
+
+.specialties-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    background-color: #22bb5f;
+    margin-left: auto;
+    margin-right: auto;
+}
