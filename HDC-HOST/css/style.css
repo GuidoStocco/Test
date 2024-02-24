@@ -69,3 +69,11 @@ nav{
     background-color: #22bb5f;
 
 }
+
+.main-banner{
+    background-image: url('../img/mainbanner.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10em 0;
+    position: relative;
+}
