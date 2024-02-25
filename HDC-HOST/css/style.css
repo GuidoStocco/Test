@@ -346,3 +346,36 @@ footer{
         margin-right: 5px;
     }
 }
+
+@media screen  and (max-width: 900px){
+    .plans-container, .specialties-container ul{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen  and (max-width: 600px){
+    html, body{
+        overflow-x: hidden;
+    }
+    
+    .main-banner p{
+        font-size: 24px;
+    }
+
+    .navbar-items{
+        margin-right: -30px;
+        position: absolute;
+    }
+}
+
+@media screen  and (max-width: 550px){
+    html, body{
+        overflow-x: hidden;
+    }
+
+    .navbar-items li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+}
