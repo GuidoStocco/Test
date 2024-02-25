@@ -2,4 +2,23 @@
 
 html, body, ul{
     font-family: 'open sans', 'sans serif';
+    margin: 0;
+    padding: 0;
 }
+
+ul{
+    list-style: none;
+}
+.container{
+    height: 100vh;
+    position: relative;
+}
+
+/*sidebar*/
+.sidebar{
+    width: 410px;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
