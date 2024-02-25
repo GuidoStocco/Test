@@ -169,12 +169,10 @@ nav{
     max-width: 275px;
     margin-left: 25px;
     margin-right: 25px;
-    
 }
 
 .plan ul{
     padding: 0;
-    
 }
 
 .plan li{
@@ -183,6 +181,7 @@ nav{
     line-height: 50px;
     background-color: #e8e9ea;
     color: #333;
+    
 }
 
 .plan .price{
@@ -199,6 +198,7 @@ nav{
     margin-right: auto;
     margin-bottom: -50px;
     font-weight: bold;
+    
 }
 
 .plan .plan-name{
@@ -208,8 +208,24 @@ nav{
     color: #fff;
     background-color: #202b34;
     padding-top: 50px;
+    border-radius: 5px;
 }
 
 .plan .pan-btn{
     background-color: #2cc76a;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .pan-btn:hover{
+    color: #ccc;
+    background-color: #22bb5f;
+}
+
+.plan .recommend{
+    background-color: #f45c57;
 }
