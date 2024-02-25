@@ -229,3 +229,54 @@ nav{
 .plan .recommend{
     background-color: #f45c57;
 }
+ 
+
+/*search*/
+.searchdomain-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.searchdomain-container h2{
+    color: #FFF;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.searchdomain-container p{
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomain-container input[type=text]{
+    margin-bottom: 25px;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.searchdomain-container input[type=submit]{
+    padding: 15px 30px;
+    color: #FFF;
+    background-color: #2cc76a;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.searchdomain-container input[type=submit]:hover{
+    color: #ccc;
+    background-color: #22bb5f;
+}
