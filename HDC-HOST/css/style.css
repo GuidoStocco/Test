@@ -280,3 +280,56 @@ nav{
     color: #ccc;
     background-color: #22bb5f;
 }
+
+.contact-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contact-container h2{
+    font-size: 36px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea{
+   width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-container textarea{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+
+.contact-container input[type=submit]{
+    background-color: #2cc76a;
+    color: #FFF;
+}
+
+.contact-container input[type=submit]:hover{
+    color: #ccc;
+    background-color: #22bb5f;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
