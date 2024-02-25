@@ -28,3 +28,30 @@ ul{
     background-color: #eee;
 }
 
+.user-photo{
+    width: 40px;
+    position: absolute;
+    border-radius: 50%;
+    left: 15px;
+    top: 10px;
+    background-color: #ccc;
+}
+
+.auxicons-toolbar-container{
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 20px;
+}
+
+.auxicons-toolbar-container i{
+    color: #80868a;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.notification-container{
+    
+}
