@@ -110,3 +110,20 @@ nav{
     text-align: center;
     padding: 20px;
 }
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt{
+    color: #22bb5f;
+}
+
+.fa-rocket{
+    color: red;
+}
+
+.fa-comments{
+    color: #ef8f29;
+}
