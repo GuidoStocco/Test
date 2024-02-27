@@ -139,3 +139,36 @@ ul{
 .contact-box:hover{
     background-color: #f4f5f5;
 }
+
+.active-chat{
+    background-color: #e9ebeb;
+}
+
+.active-chat:hover{
+    background-color: #e9ebeb;
+}
+
+.contact-box .user-photo{
+    width: 50px;
+}
+
+.user-info{
+    margin-left: 80px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.user-info p, .message-info p{
+    margin: 0;
+}
+
+.user-name{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.user-massagepreview{
+    font-size: 14px;
+    color: #454545;
+}
