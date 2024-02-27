@@ -237,7 +237,6 @@ ul{
 
 .chattools-container{
     float: right;
-    display: inline-block;
     height: 60px;
     line-height: 60px;
     margin-right: 20px;
