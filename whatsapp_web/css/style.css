@@ -213,3 +213,14 @@ ul{
     height: 100%;
     background-color: #ccc;
 }
+
+.chat-navbar{
+    height: 60px;
+    background-color: #eee;
+    border-left: 1px solid #ddd;
+    padding-left: 75px ;
+}
+
+.chat-navbar p{
+    margin: 0;
+}
