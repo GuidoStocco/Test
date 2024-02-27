@@ -122,3 +122,20 @@ ul{
 #search::placeholder{
     color: #bdc1c3;
 }
+
+.contact-box{
+    cursor: pointer;
+    height: 72px;
+    background-color: #fff;
+    border-top: 1px solid #f2f2f2;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.contact-box:last-child{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.contact-box:hover{
+    background-color: #f4f5f5;
+}
