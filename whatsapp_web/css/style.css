@@ -319,3 +319,36 @@ ul{
     position: absolute;
 }
 
+.sendmessage-container{
+    background-color: #efefef;
+    border-left: 1px solid #ddd;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+#chatmessage{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    background-color: #fff;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    width: 815px;
+}
+
+.sendmessage-container i{
+    font-size: 24px;
+    color: #80868a;
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+}
+
+.fa-microphone{
+    float: right;
+}
