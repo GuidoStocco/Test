@@ -268,3 +268,37 @@ aside{
 #moreimg-btn span{
     margin-right: 5px;
 }
+
+#about-box{
+    border: 1px solid #ebebeb;
+}
+
+#name-box{
+    border: 1px solid #ebebeb;
+    padding: 0 15px;
+}
+
+#name{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+#role{
+    color: #70757a;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.about-text{
+    font-size: 14px;
+    color: #222;
+    padding: 0 15px;
+    line-height: 1.57;
+}
+
+.about-text span{
+    font-weight: bold;
+}
