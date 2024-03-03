@@ -99,7 +99,9 @@
     font-size: 14px;
 }
 
-
+.other-links{
+    background-color: #fff;
+}
 
 #facebook-login{
     margin-bottom: 25px;
@@ -125,3 +127,14 @@
     font-size: 13px;
     margin-top: 1px;
 }    
+
+#forgot-password{
+    margin-bottom: 20px;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+#forgot-password a{
+    text-decoration: none;
+    color: #373799;
+}
