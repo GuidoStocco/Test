@@ -138,3 +138,22 @@
     text-decoration: none;
     color: #373799;
 }
+
+#register-container{
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#register-container p{
+    font-size: 14px;
+    color: #262626;
+}
+
+#register-container a{
+    text-decoration: none;
+    color: #4a95f6;
+    font-weight: bold;
+}
