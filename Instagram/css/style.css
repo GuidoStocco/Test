@@ -157,3 +157,28 @@
     color: #4a95f6;
     font-weight: bold;
 }
+
+#get-app-container{
+    text-align: center;
+    width: 350px;
+
+}
+
+#get-app-container p{
+    margin: 20px;
+    font-size: 13px;
+}
+
+#get-app-container a{
+    text-decoration: none;
+}
+
+#get-app-container img{
+    width: 136px;
+    height: 40px;
+}
+
+footer{
+    text-align: left;
+    width: 1000px;
+}
