@@ -209,3 +209,44 @@ footer p{
     text-transform: uppercase;
     
 }
+
+/*responsive*/
+
+@media (max-width: 450px){
+    #main-banner{
+        display: none;
+    }
+
+    #main-container,
+    .form-box{
+        margin: 0;
+    }
+
+    #form-container,
+    .form-box,
+    #register-container,
+    #get-app-container{
+        width: 100%;
+        border: none;
+    }
+
+    #facebook-login span{
+        background-color: #fff;
+    }
+
+    #register-container p, a{
+        background-color: #fff;
+    }
+
+    footer{
+        width: 90%;
+    }
+
+    .footer-links a{
+        font-size: 11px;
+    }
+
+    footer p{
+        font-size: 11px;
+    }
+}
