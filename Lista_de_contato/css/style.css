@@ -34,9 +34,21 @@ h1{
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-
+.container-list{
+    list-style: none;
+}
 
 .list{
     display: flex;
-    list-style: none;
+    border-bottom: 1px solid #eee;
+}
+
+.list-item1 img{
+    height: 80px;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+.list-item2{
+    padding: 20px;
 }
