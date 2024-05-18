@@ -50,5 +50,13 @@ h1{
 }
 
 .list-item2{
-    padding: 20px;
+    padding: 0 20px;
+    background-color: aqua;
 }
+
+.list-item2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
