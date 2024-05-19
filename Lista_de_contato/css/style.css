@@ -50,13 +50,18 @@ h1{
 }
 
 .list-item2{
+    height: 70px;
     padding: 0 20px;
-    background-color: aqua;
+    margin-top: 20px;
+
 }
 
 .list-item2 p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-bottom: 20px;
+}
+
+.list .lnr-trash{
+    background-color: aqua;
+    width: 100%;
 }
 
