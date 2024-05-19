@@ -58,3 +58,50 @@ body{
     padding: 10px;
     border-radius: 10px;
 }
+
+/* CONTAINER MAIN */
+
+
+
+.main-container-title{
+    color: #F5E7D3;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+
+}
+
+.container-price{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+#container-plan-optionals{
+    flex-basis: 250px;
+    background-color: #00967D;
+    padding: 30px;
+}
+
+#container-plan-optionals h2{
+    color:#F5E7D3;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #DB6816;
+}
+
+#container-plan-optionals p{
+    color: #F5E7D3;
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    
+}
+
+#container-plan-optionals b{
+    font-size: 24px;
+}
+
+.container-optionals li{
+    padding-bottom: 5px;
+    
+}
