@@ -37,11 +37,13 @@ h1{
 
 .container-list{
     list-style: none;
+    
 }
 
 .list{
     display: flex;
     border-bottom: 1px solid #eee;
+    
 }
 
 
@@ -54,24 +56,28 @@ h1{
 
 .list-item2{
     height: 70px;
-    padding: 0 20px;
     margin: auto 20px;
     flex: 1;
-    
+  
+
 }
 
 .list-item2 p {
     padding-bottom: 20px;
     font-weight: 500;
+    padding-top: 5px;
     
 }
 
 .list-item2 .list-item2-name{
     color: #2b2929;
+    font-size: 20px;
+    margin: 0;
 }
 
 .list-item2 .list-item2-email{
-    color: #ccc;
+    color: #aaa;
+    margin: 0;
 }
 
 
@@ -82,5 +88,15 @@ h1{
     align-items: center;
     margin: 0 5px;
     color: #ccc;
+
+    opacity: 0;
 }
 
+.list:hover{
+    background-color: #e8e8e8;
+    cursor: pointer;
+}
+
+.list:hover .lnr{
+    opacity: 1;
+}
