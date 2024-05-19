@@ -16,12 +16,13 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100%;
-    background-color: aquamarine;
+    background-color: rgb(19, 73, 109);
 }
 
 
 h1{
     color: #fff;
+    margin-bottom: 15px;
 }
 
 #main-container{
@@ -43,6 +44,8 @@ h1{
     border-bottom: 1px solid #eee;
 }
 
+
+
 .list-item1 img{
     height: 80px;
     border-radius: 50%;
@@ -52,16 +55,32 @@ h1{
 .list-item2{
     height: 70px;
     padding: 0 20px;
-    margin-top: 20px;
-
+    margin: auto 20px;
+    flex: 1;
+    
 }
 
 .list-item2 p {
     padding-bottom: 20px;
+    font-weight: 500;
+    
 }
 
-.list .lnr-trash{
-    background-color: aqua;
-    width: 100%;
+.list-item2 .list-item2-name{
+    color: #2b2929;
+}
+
+.list-item2 .list-item2-email{
+    color: #ccc;
+}
+
+
+.list .lnr-trash,
+.lnr-pencil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    color: #ccc;
 }
 
