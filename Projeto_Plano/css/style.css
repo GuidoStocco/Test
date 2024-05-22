@@ -83,12 +83,17 @@ body{
     flex-basis: 250px;
     background-color: #00967D;
     padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 #container-plan-optionals h2{
     color:#F5E7D3;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #DB6816;
+    letter-spacing: 2px;
+    
 }
 
 #container-plan-optionals p{
@@ -102,13 +107,19 @@ body{
     font-size: 24px;
 }
 
+
+
+.container-optionals{
+    flex: 1 ;
+}
+
 .container-optionals li{
     color: #F5E7D3; 
     
 }
 
 .container-optionals li{
-    padding-bottom: 5px;       
+    padding-bottom: 8px;       
     
 }
 
@@ -120,11 +131,12 @@ body{
     padding: 10px;
     width: 80%;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: #F5E7D3;
     font-size: 18px;
     cursor: pointer;
+    margin: 20px auto 0;
+    
 }
 
 /* HOVER EFECTS */
