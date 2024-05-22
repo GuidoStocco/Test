@@ -57,6 +57,7 @@ body{
     background-color: #DB6816;
     padding: 10px;
     border-radius: 10px;
+    font-weight: 800;
 }
 
 /* CONTAINER MAIN */
@@ -102,6 +103,43 @@ body{
 }
 
 .container-optionals li{
-    padding-bottom: 5px;
+    color: #F5E7D3; 
     
+}
+
+.container-optionals li{
+    padding-bottom: 5px;       
+    
+}
+
+
+
+.button{
+    font-weight: 800;
+    background-color: #DB6816;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color: #F5E7D3;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* HOVER EFECTS */
+.container-plan a:hover{
+    color:#83D4A9;
+}
+
+.container-plan .select:hover{
+    color:#DB6816;
+    background-color: #F5E7D3;
+    border: 2px solid #DB6816;
+}
+
+.button:hover{
+    color:#DB6816;
+    background-color: #F5E7D3;
+    border: 2px solid #DB6816;
 }
