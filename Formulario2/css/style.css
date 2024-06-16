@@ -4,7 +4,38 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primary-color: #ff7833;
+    --secondary-color: #313338;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    color: #e7e7e7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+#main-header{
+    flex: 0 0 26rem;
+    background-color: var(--secondary-color);
+}
+
 .header-logo{
     width: 50px;
     height: 50px;
+}
+
+a{
+    color: inherit;
+}
+
+#main-container{
+    background-color: #444856;
+    flex: 1 0;
 }
