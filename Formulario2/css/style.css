@@ -75,3 +75,23 @@ a{
 .main-navegation li{
     border-bottom: 1px solid #fbfbfb;
 }
+
+/* main container */
+#main-container h1 {
+    font-size: 4rem;
+    color: #a9a7a7;
+    margin: 2rem 0 3rem;
+   
+}
+
+h2, h3, h4, h5, h6{
+    color: var(--primary-color);
+}
+
+.main-article {
+    margin: 3rem 0 6rem;
+}
+
+.main-article p {
+    padding-top: 1rem;
+}
