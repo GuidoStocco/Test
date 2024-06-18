@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Formulário de contato</legend>
+            <div class="container-input">
+                <label for="username">Nome</label>
+                <input type="text" id="username" name="username" placeholder="Digite seu nome completo" required>
+            </div>
+
+            <div class="container-input">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Digite um email válido" required>
+            </div>
+            
+            <div class="container-input">
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject"  required>
+            </div>
+
+            <div>
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20"
+                placeholder="Conte-nos tudo"></textarea>
+            </div>
+            
+            <div>
+                <input type="submit" class="btn">
+            </div>
+
+        </fieldset>
+    </form>
     
 </body>
 </html>
