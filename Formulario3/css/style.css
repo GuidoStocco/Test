@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #181818;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form{
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 35em;
+    background-color: #0e1010;
+    padding: 1em;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+label,
+input,
+textarea{
+    width: 100%;
+    color: #fff;
+}
+
+input,
+textarea{
+    background-color: rgba(0, 0, 0, .3);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb;
+    padding: .75em;
+    margin: .5em 0 2.5em;
+    outline: none;
+}
+
+.legend{
+    padding: .5em;
+    text-align: center;
+    font-weight: bold;
+    color: #8e999a;
+    font-size: 1.3em;
+}
+
+.container-input-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #2a2727;
+    color: #fff;
+    cursor: pointer;
+    padding: .7em;
+    font-size: 1.2em;
+    border: none;
+    min-width: 7em;
+    border-radius: 2px;
+}
+
+/* pseudos-classes */
+input:invalid:focus,
+textarea:invalid:focus{
+    border-bottom: 2px solid #ff000d; 
+}
+
+input:valid:focus,
+textarea:valid:focus{
+    border-bottom: 2px solid #0ec70a; 
+}
+
+input:focus,
+textarea:focus{
+    border-bottom: 2px solid #8e999a;  
+}
+
