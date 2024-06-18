@@ -10,7 +10,7 @@
 
     <form action="" method="post">
         <fieldset>
-            <legend>Formulário de contato</legend>
+            <legend class="legend">Formulário de contato</legend>
             <div class="container-input">
                 <label for="username">Nome</label>
                 <input type="text" id="username" name="username" placeholder="Digite seu nome completo" required>
@@ -26,14 +26,14 @@
                 <input type="text" id="subject" name="subject"  required>
             </div>
 
-            <div>
+            <div class="container-input">
                 <label for="message">Mensagem</label>
                 <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20"
                 placeholder="Conte-nos tudo"></textarea>
             </div>
             
-            <div>
-                <input type="submit" class="btn">
+            <div class="container-input-btn">
+                <button class="btn">Enviar</button>
             </div>
 
         </fieldset>
