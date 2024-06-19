@@ -10,23 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="#" method="get" class="formulary">
+    <form action="#" method="post" class="formulary">
         <h1>login</h1>
 
         <div class="formulary-input">
             <label for="user">Usuário</label>
-            <input type="text" id="user" name="user" placeholder="Digite o nome de usuário">
+            <input type="text" id="user" name="user" required maxlength="10" minlength="5">
         </div>
 
         <div class="formulary-input">
             <label for="password">Senha</label>
-            <input type="password" id="password" name="password" placeholder="Digite sua senha">
+            <input type="password" id="password" name="password" required maxlength="8" minlength="6">
         </div>
 
         <section class="section">
             <article class="login-cadastro">
-                <button class="btn">Login</button>
-                <a href="cadastre-se.html">Cadastre-se</a>
+                <button class="btn btn2">Login</button>
+                <a href="cadastre-se.html" class="btn">Cadastre-se</a>
             </article>
     
             <div>

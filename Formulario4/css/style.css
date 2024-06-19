@@ -23,33 +23,101 @@ body{
     min-width: 380px;
     max-width: 480px;
     margin: auto;
-
+    box-shadow: 0 -2 5 rgb(0, 0, 0, .5);
 }
 
 .formulary h1{
     font-weight: 300;
     color: var(--primary-color);
-    padding: 1.1em 1.3rem .6rem;
-    margin-left: auto;
+    padding: 1.1em 1.7rem .6rem;
+    margin-left: .3rem;
 }
 
 .formulary-input{
-    margin-left: 1.3rem;
-    width: 90%;
-    margin-bottom: 1rem;
+    width: 100%;  
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .8rem auto;
+    
 }
+
 
 input,
 label{
     display: block;
-    flex: 1;
-    width: 100%;
-    margin-left: auto;
+    width: 90%;
     padding: .7rem;
     border: none;
+    
 }
 
 input{
+    outline: none;
     border-bottom: 1px solid var(--primary-color);
+    width: 85%;
+    
 }
 
+input:focus{
+    outline: 1px solid var(--primary-color);
+    border-radius: 1px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.login-cadastro{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn2:hover{
+    color: var(--primary-color);
+    background-color: #fff;
+    outline: 1px solid var(--primary-color);
+    
+}
+
+a.btn{
+    background-color: #fff;
+    color: #232a31;
+    opacity: .9;
+}
+
+a.btn:hover{
+    opacity: 1;
+}
+
+.forgot{
+    font-size: .8rem;
+    margin-right: 1rem;
+    color: #022a70;
+    opacity: .9;
+}
+
+.forgot:hover{
+    opacity: 1;
+}
