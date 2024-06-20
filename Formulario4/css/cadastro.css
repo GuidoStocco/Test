@@ -21,6 +21,7 @@ body{
     background-color: #fff;
     width: 100%;
     max-width: 480px;  
+    box-shadow: -3px 0 10px black;
 }
 
 .fieldset{
