@@ -20,7 +20,7 @@ body{
 .formulary{
     background-color: #fff;
     width: 100%;
-    max-width: 480px;  
+    max-width: 450px;  
     box-shadow: -3px 0 10px black;
 }
 
@@ -80,6 +80,7 @@ input:valid:focus{
     justify-content: space-between;
     margin-top: 1rem;
     padding: 1rem 0;
+    align-items: baseline;
 }
 
 .btn{
@@ -101,12 +102,14 @@ input:valid:focus{
 
 .section-p{
     color: #534f4f;
+    
 }
 
 .forgot{
     font-size: 14px;
     color: #06265f;
     opacity: .9;
+    padding-left: .2rem;
 }
 
 .forgot:hover{
