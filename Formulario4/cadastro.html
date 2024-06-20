@@ -16,24 +16,24 @@
 
             <div class="formulary-input">
                 <label for="user">Nome</label>
-                <input type="text" id="user" name="user" required maxlength="100" minlength="4" placeholder="Nome completo">
+                <input type="text" id="user" name="user" required   placeholder="Nome completo" pattern="\w{3,30}" title="nome completo">
             </div>
 
             <div class="formulary-input">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" required placeholder="Digite um email válido">
+                <input type="email" id="email" name="email" required placeholder="Digite um email válido" pattern="\w+@\w+\.\w+">
             </div>
 
             <div class="formulary-input">
                 <label for="password">Senha</label>
-                <input type="password" id="password" name="password" required maxlength="12" minlength="6" placeholder="Digite uma senha" pattern="\d{6,12}">
+                <input type="password" id="password" name="password" required maxlength="12" minlength="6" placeholder="Somente números" pattern="\d{6,12}">
             </div>
     
             
 
             <div class="formulary-input">
                 <label for="cep">Cep</label>
-                <input type="number" id="cep" name="cep" required maxlength="9" minlength="8" placeholder="00000-000">
+                <input type="number" id="cep" name="cep" required maxlength="9" minlength="9" placeholder="00000-000">
             </div>
 
             <div class="formulary-input">
@@ -48,7 +48,7 @@
 
             <div class="formulary-input">
                 <label for="neighborhood">Bairro</label>
-                <input type="text" id="neighborhood" name="neighborhood" required placeholder="Bairro onde mora">
+                <input type="text" id="neighborhood" name="neighborhood" required placeholder="Bairro ">
             </div>
 
             <div class="formulary-input">
@@ -61,7 +61,7 @@
                  <a href="cadastro.html" class="btn">Cadastre-se</a>
                                  
         
-                <p class="section-p">Já possui cadastro?<a href="#" class="forgot">Faça login</a></p>
+                <p class="section-p">Já possui cadastro?<a href="index.html" class="forgot">Faça login</a></p>
             </section>
 
         </fieldset>
