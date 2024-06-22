@@ -5,13 +5,33 @@ const btnElement = document.querySelector("#btn");
 //
 let tarefas = [];
 
+function renderTarefas() {
+    listElement.innerHTML = '';
+
+    tarefas.map((tarefa) => {
+        let liElement = document.createElement("li");
+        let tarefaText = document.createTextNode(tarefa)
+
+        liElement.appendChild(tarefaText)
+
+        listElement.appendChild(liElement);
+    })
+}
+
+
+
 function adicionarTarefa(){
 
     if(!inputElement.value){
         alert("digite uma tarefa")
         return false;
     }else{
-        console.log(inputElement.value)
+        let novaTarefa = inputElement.value;
+
+        tarefas.push(novaTarefa);
+        inputElement.value = ''
+
+        renderTarefas();
     }
 
 }
