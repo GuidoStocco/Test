@@ -12,3 +12,5 @@ $('#formTest').submit(function (e) {
             $('#city').value = data.localidade
         })
 })
+
+console.log(axios)
