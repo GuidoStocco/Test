@@ -24,14 +24,11 @@ function validCep(){
     const cep = cepInput.value;
     const regexCep = /^[0-9]{8}$/;
 
-
-
-    if(!cep){
-        return false;
+    if(regexCep === cep){
+        axios.get(`https://viacep.com.br/ws/${cep}/json/`)
     }else{
         throw {cep_error: 'cep valid'};
     }
-
 }
 
 cepInput.addEventListener("focusout", () => {
