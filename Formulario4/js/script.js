@@ -1,16 +1,49 @@
-//Selecionando elementos
+
+// $('#formTest').submit(function (e) {
+//     e.preventDefault();
+//     const cep = cepInput.value;
+//     axios.get(`https://viacep.com.br/ws/${cep}/json/`)
+//         .then((response) => {
+//             const { data } = response;
+//             console.log(data);
+//             $('#city').value = data.localidade
+//         })
+// })
+
+// console.log(axios)
+
+const formTest = document.querySelector("#formTest");
+const cepInput = document.querySelector("#cep");
+const streetInput = document.querySelector("#street");
+const cityInput = document.querySelector("#city");
+const bairroInput = document.querySelector("#neighborhood");
 
 
-$('#formTest').submit(function (e) {
-    e.preventDefault();
-    const form = e.target;
-    const cep = '29930425'; // TODO: fazer lógica de pegar do input
-    axios.get(`https://viacep.com.br/ws/${cep}/json/`)
-        .then((response) => {
-            const { data } = response;
-            console.log(data);
-            $('#city').value = data.localidade
-        })
+function validCep(){
+
+    const cep = cepInput.value;
+    const regexCep = /^[0-9]{8}$/;
+
+
+
+    if(!cep){
+        return false;
+    }else{
+        throw {cep_error: 'cep valid'};
+    }
+
+}
+
+cepInput.addEventListener("focusout", () => {
+
+    validCep();
+
 })
 
-console.log(axios)
+
+
+
+
+
+
+    
