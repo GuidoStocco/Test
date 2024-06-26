@@ -18,32 +18,54 @@ const streetInput = document.querySelector("#street");
 const cityInput = document.querySelector("#city");
 const bairroInput = document.querySelector("#neighborhood");
 
+
 // function validarCep() {
+    
 //     const cep = cepInput.value;
 //     const regexCep = /^[0-9]{8}$/;
 
-//     if(regexCep.test(cep)){
-//         return cep;
-//     } else{
-//         throw {Error_cep: 'Invalid'}
-//     };
+//     if(!regexCep.test(cep)){
+//         alert("coloque um cep válido")
+//     }
 // }
 
+//  validarCep();
 
-const get = () => {
+// formTest.addEventListener("focusout", async () => {
 
-    const cep = cepInput.value;
-    axios.get(`viacep.com.br/ws/${cep}/json/`)
-        .then((response) => {
-            console.log(response)
-        })
- 
-}
+//     try {
+//         const cep = cepInput.value;
+//         const regexCep = /^[0-9]{8}$/;
 
-
-
-
-
-
-
+//         if(!regexCep.test(cep.value)){
+//             throw new Error("cep Invalid")
+//         }
+            
     
+//         axios.get(`https://viacep.com.br/ws/${cep}/json/`)
+//         .then((response) => {
+//             const {data} = response;
+//             streetInput.value = data.logradouro;
+//             bairroInput.value = data.bairro;
+//             cityInput.value = data.localidade;
+//         })
+
+//     } catch (error) {
+//         alert(error)
+//     }
+// })
+
+   
+formTest.addEventListener("focusout", async () => {
+    
+    const cep = cepInput.value;
+    axios.get(`https://viacep.com.br/ws/${cep}/json/`)
+            .then((response) => {
+                const {data} = response;
+                streetInput.value = data.logradouro;
+                bairroInput.value = data.bairro;
+                cityInput.value = data.localidade;
+            })
+     
+})
+
