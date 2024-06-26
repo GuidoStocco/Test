@@ -64,8 +64,6 @@ formTest.addEventListener("focusout", () => {
                 const {data} = response;
                 streetInput.value = data.logradouro;
                 bairroInput.value = data.bairro;
-                cityInput.value = data.localidade;
-            })
-     
+                cityInput.value = data.localidade;       
+     })
 })
-
