@@ -56,7 +56,7 @@ const bairroInput = document.querySelector("#neighborhood");
 // })
 
    
-formTest.addEventListener("focusout", async () => {
+formTest.addEventListener("focusout", () => {
     
     const cep = cepInput.value;
     axios.get(`https://viacep.com.br/ws/${cep}/json/`)
